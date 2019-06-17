@@ -4,6 +4,7 @@ import org.springframework.data.rest.core.event.AbstractRepositoryEventListener;
 import org.springframework.stereotype.Component;
 
 import com.rjps.banana.entities.Booking;
+import com.rjps.banana.events.exceptions.AmountOfPeopleException;
 
 @Component
 public class BookingControllerEventListener extends AbstractRepositoryEventListener<Booking> {

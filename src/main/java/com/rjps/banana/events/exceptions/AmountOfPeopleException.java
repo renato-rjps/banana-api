@@ -1,4 +1,4 @@
-package com.rjps.banana.events;
+package com.rjps.banana.events.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
